@@ -13,7 +13,7 @@ class EvenOdd
 
     
     if ( a % 2 == 0 )
-        System.out.println("valid");
+        System.out.println("Even");
      else
         System.out.println("invalid");
   }
