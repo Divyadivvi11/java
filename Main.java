@@ -3,15 +3,15 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        int n;
+        int b;
         Scanner s = new Scanner(System.in);
         System.out.println("");
         n = s.nextInt();
-        if(n > 0)
+        if(b > 0)
         {
             System.out.println(" Positive");
         }
-        else if(n < 0)
+        else if(b < 0)
         {
             System.out.println(" Negative");
         }
