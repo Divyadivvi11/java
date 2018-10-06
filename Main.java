@@ -5,7 +5,7 @@ public class Main
     {
         int n;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number you want to check:");
+        System.out.println("");
         n = s.nextInt();
         if(n > 0)
         {
