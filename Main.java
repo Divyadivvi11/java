@@ -6,7 +6,7 @@ public class Main
         int b;
         Scanner s = new Scanner(System.in);
         System.out.println("");
-        n = s.nextInt();
+        b= s.nextInt();
         if(b > 0)
         {
             System.out.println(" Positive");
