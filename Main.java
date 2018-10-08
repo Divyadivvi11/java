@@ -1,23 +1,23 @@
-import java.util.Scanner;
-public class Main
+import java.util.*;
+ 
+class Main
 {
-    public static void main(String[] args) 
+    public static void main(String []s)
     {
-        int b;
-        Scanner s = new Scanner(System.in);
-        System.out.println("");
-        b= s.nextInt();
-        if(b > 0)
-        {
-            System.out.println(" Positive");
-        }
-        else if(b < 0)
-        {
-            System.out.println(" Negative");
-        }
+        int num;
+        //Scanner class to read value
+        Scanner sc=new Scanner(System.in);
+         
+       
+        num=sc.nextInt();
+         
+        //check condition for +ve, -ve and Zero
+        if(num>0)
+            System.out.println(num + " is POSITIVE NUMBER.");
+        else if(num<0)
+            System.out.println(num + " is NEGATIVE NUMBER.");
         else
-        {
-            System.out.println("zero ");
-        }
+            System.out.println("IT's ZERO.");
+         
     }
 }
